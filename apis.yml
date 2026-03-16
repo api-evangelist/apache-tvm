@@ -1,0 +1,35 @@
+aid: apache-tvm
+name: Apache TVM
+description: >-
+  Apache TVM is an open-source compiler framework for deep learning that aims to provide performance portability across diverse hardware backends. It automates the optimization of deep learning models for deployment on CPUs, GPUs, and specialized accelerators.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Deep Learning
+  - Compiler
+  - Model Optimization
+  - Edge Computing
+  - AI
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-tvm/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-tvm:apache-tvm
+    name: Apache TVM
+    description: >-
+      TVM provides a Python API for deep learning model compilation and optimization, Relay IR API for graph-level optimization, and runtime deployment APIs for deploying optimized models on CPUs, GPUs, and edge devices.
+    humanURL: https://tvm.apache.org/docs/
+    tags:
+      - Python
+      - Deep Learning
+      - Compiler
+    properties:
+      - type: Documentation
+        url: https://tvm.apache.org/docs/
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
