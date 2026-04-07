@@ -7,11 +7,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Deep Learning
-  - Compiler
-  - Model Optimization
-  - Edge Computing
   - AI
+  - Compiler
+  - Deep Learning
+  - Edge Computing
+  - Model Optimization
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,9 +24,9 @@ apis:
       TVM provides a Python API for deep learning model compilation and optimization, Relay IR API for graph-level optimization, and runtime deployment APIs for deploying optimized models on CPUs, GPUs, and edge devices.
     humanURL: https://tvm.apache.org/docs/
     tags:
-      - Python
-      - Deep Learning
       - Compiler
+      - Deep Learning
+      - Python
     properties:
       - type: Documentation
         url: https://tvm.apache.org/docs/
