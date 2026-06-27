@@ -40,7 +40,7 @@ apis:
     properties:
       - type: Documentation
         url: https://tvm.apache.org/docs/reference/api/python/
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/apache-tvm/
         title: Python Package (PyPI)
   - aid: apache-tvm:apache-tvm-rpc-api
