@@ -60,6 +60,10 @@ apis:
       - type: Documentation
         url: https://tvm.apache.org/docs/how_to/work_with_microtvm/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-tvm-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-tvm-domain-security.yml
   - type: GitHubRepository
     url: https://github.com/apache/tvm
   - type: Documentation
@@ -72,6 +76,8 @@ common:
     url: https://github.com/apache/tvm/releases
   - type: Support
     url: https://discuss.tvm.apache.org/
+  - url: https://tvm.apache.org/rss.xml
+    type: Blog
   - type: TermsOfService
     url: https://www.apache.org/licenses/
   - type: Features
