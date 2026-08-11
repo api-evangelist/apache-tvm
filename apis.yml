@@ -72,6 +72,13 @@ apis:
       - type: Documentation
         url: https://tvm.apache.org/docs/how_to/work_with_microtvm/
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/tvm/issues
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/tvm/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-tvm-vulnerability-disclosure.yml
   - type: DomainSecurity
