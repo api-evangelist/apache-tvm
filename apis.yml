@@ -92,6 +92,8 @@ apis:
       - type: Documentation
         url: https://tvm.apache.org/docs/how_to/work_with_microtvm/
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/tvm/issues
   - type: CodeOfConduct
