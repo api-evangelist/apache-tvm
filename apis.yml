@@ -37,7 +37,7 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache-tvm.png
 tags:
   - Artificial Intelligence
-  - Compiler
+  - Compilers
   - Deep Learning
   - Edge Computing
   - Model Optimization
@@ -65,6 +65,11 @@ apis:
       tool provides a simplified interface for common TVM workflows.
     humanURL: https://tvm.apache.org/docs/reference/api/python/
     tags:
+      - Python
+      - Deep Learning
+      - Model Optimization
+      - Compilers
+    tags_raw:
       - Python
       - Deep Learning
       - Model Optimization
