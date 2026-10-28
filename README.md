@@ -1,4 +1,4 @@
-# Apache TVM (apache-tvm)
+# Apache TVM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,92 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache TVM is an open-source compiler framework for deep learning that provides performance portability across CPUs, GPUs, FPGAs, and specialized accelerators. It automatically optimizes models from TensorFlow, PyTorch, ONNX, and other frameworks for edge and cloud deployment.
+Apache TVM is an open-source compiler framework for deep learning that provides performance portability across diverse hardware backends including CPUs, GPUs, FPGAs, and specialized accelerators (ARM, NVIDIA, AMD, Qualcomm). It automatically optimizes deep learning models from frameworks like TensorFlow, PyTorch, ONNX, MXNet, and Keras for deployment on edge and cloud targets. TVM is an Apache Software Foundation top-level project.
 
-**URL:** [https://tvm.apache.org/](https://tvm.apache.org/)
+**Areas:** Artificial Intelligence · Compilers · Deep Learning · Edge Computing · Model Optimization · Open Source
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache TVM on APIs.io
 
-## Tags:
+Everything profiled for Apache TVM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-tvm/](https://apis.io/providers/apache-tvm/)** — or go straight to one of the APIs or properties below.
 
- - AI, Compiler, Deep Learning, Edge Computing, Model Optimization, Open Source
+### APIs (2)
 
-## Timestamps
+- [Apache TVM Python API](https://apis.io/apis/apache-tvm/apache-tvm-python-api/) — The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and…
+- [Apache TVM RPC API](https://apis.io/apis/apache-tvm/apache-tvm-rpc-api/) — The TVM RPC (Remote Procedure Call) system enables remote compilation, deployment, and profiling of optimized models on target devices. It provides…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache TVM Python API
-Comprehensive Python interface for model compilation, optimization, and deployment including tvm.relay, tvm.auto_scheduler, tvm.micro, and tvm.rpc modules.
+#### Security (2)
 
-**Human URL:** [https://tvm.apache.org/docs/reference/api/python/](https://tvm.apache.org/docs/reference/api/python/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Tvm Domain Security](https://apis.io/security/apache-tvm/apache-tvm-domain-security/)
+- [Apache Tvm Vulnerability Disclosure](https://apis.io/security/apache-tvm/apache-tvm-vulnerability-disclosure/)
 
- - Python, Deep Learning, Model Optimization, Compiler
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://tvm.apache.org/docs/reference/api/python/)
-- [Python Package (PyPI)](https://pypi.org/project/apache-tvm/)
+- [Apache Tvm Plans Pricing](https://apis.io/plans/apache-tvm/apache-tvm-plans-pricing/)
 
-### Apache TVM RPC API
-Remote compilation, deployment, and profiling of optimized models on target devices for AutoTVM/AutoScheduler tuning jobs.
+#### Rate limits (1)
 
-**Human URL:** [https://tvm.apache.org/docs/how_to/work_with_microtvm/](https://tvm.apache.org/docs/how_to/work_with_microtvm/)
+Published request limits.
 
-#### Tags:
+- [Apache Tvm Rate Limits](https://apis.io/rate-limits/apache-tvm/apache-tvm-rate-limits/)
 
- - RPC, Remote, Profiling, Hardware
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://tvm.apache.org/docs/how_to/work_with_microtvm/)
+- [Apache Tvm Finops](https://apis.io/finops/apache-tvm/apache-tvm-finops/)
 
-## Common Properties
+## Where to find this API
 
-- [GitHubRepository](https://github.com/apache/tvm)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://tvm.apache.org/docs/)
-- [Portal](https://tvm.apache.org/)
-- [GettingStarted](https://tvm.apache.org/docs/get_started/)
-- [ReleaseNotes](https://github.com/apache/tvm/releases)
+- [Getting started](https://tvm.apache.org/docs/get_started/)
 - [Support](https://discuss.tvm.apache.org/)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Blog](https://tvm.apache.org/rss.xml)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Multi-Framework Support | Import models from TensorFlow, PyTorch, ONNX, MXNet, Keras, and other frameworks. |
-| Hardware-Specific Optimization | Automatic operator scheduling and kernel fusion for CPUs, GPUs, and accelerators. |
-| Auto-Tuning | AutoTVM and AutoScheduler for automated compute kernel hyperparameter optimization. |
-| MicroTVM | Deploy optimized models on microcontrollers and bare-metal devices. |
-| BYOC Framework | Bring Your Own Codegen for integrating custom hardware accelerators. |
-| Relay IR | High-level intermediate representation for end-to-end model optimization. |
+**Kin Score 23.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Edge AI Deployment | Deploy optimized deep learning models on edge devices and microcontrollers. |
-| Model Serving Optimization | Optimize inference performance for cloud GPU/CPU model serving. |
-| Cross-Platform Deployment | Compile a single model for multiple hardware targets. |
-| Custom Accelerator Integration | Integrate custom AI accelerators using TVM's BYOC framework. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| ONNX | Import and optimize ONNX models from any ONNX-compatible ML framework. |
-| PyTorch | TorchScript to TVM compilation for PyTorch model optimization. |
-| TensorFlow | TensorFlow and TFLite model import and optimization. |
-| NVIDIA CUDA | CUDA/cuDNN backend for NVIDIA GPU kernel generation and optimization. |
-| ARM | ARM CPU (Cortex-A, Cortex-M) and ARM Mali GPU backend support. |
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-tvm/](https://apis.io/providers/apache-tvm/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache TVM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-tvm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
